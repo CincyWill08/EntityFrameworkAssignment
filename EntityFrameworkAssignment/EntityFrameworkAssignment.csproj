@@ -54,6 +54,10 @@
     <Compile Include="Migrations\201802221729517_Initialization.Designer.cs">
       <DependentUpon>201802221729517_Initialization.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802221841150_Re-Initialization.cs" />
+    <Compile Include="Migrations\201802221841150_Re-Initialization.Designer.cs">
+      <DependentUpon>201802221841150_Re-Initialization.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -66,6 +70,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201802221729517_Initialization.resx">
       <DependentUpon>201802221729517_Initialization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802221841150_Re-Initialization.resx">
+      <DependentUpon>201802221841150_Re-Initialization.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
