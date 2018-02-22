@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace EntityFrameworkAssignment
 {
-    class Program
+    public class EFAssignmentDBContext : DbContext
     {
-        static void Main(string[] args)
+        public EFAssignmentDBContext() : base()
         {
-            EFAssignmentDBContext db = new EFAssignmentDBContext();
+
         }
+        public virtual DbSet<Student> Students { get; set; }
     }
+
 }
