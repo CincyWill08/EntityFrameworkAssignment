@@ -23,6 +23,6 @@ namespace EntityFrameworkAssignment
         public int GradYear { get; set; }
         [Required]
         public bool GradWithHonors { get; set; }
-        public bool AlumniDonor { get; set; }
+        public bool? AlumniDonor { get; set; }
     }
 }

@@ -58,6 +58,10 @@
     <Compile Include="Migrations\201802221841150_Re-Initialization.Designer.cs">
       <DependentUpon>201802221841150_Re-Initialization.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802222332030_Made alumnidonor nullable.cs" />
+    <Compile Include="Migrations\201802222332030_Made alumnidonor nullable.Designer.cs">
+      <DependentUpon>201802222332030_Made alumnidonor nullable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201802221841150_Re-Initialization.resx">
       <DependentUpon>201802221841150_Re-Initialization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802222332030_Made alumnidonor nullable.resx">
+      <DependentUpon>201802222332030_Made alumnidonor nullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
